@@ -4,17 +4,17 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
     {
-        title: 'Lumina Interface',
-        tags: ['React', 'D3.js'],
+        title: 'Nansen AI',
+        tags: ['Blockchain Analytics', 'D3.js'],
         color: 'bg-pastel-blue/20 dark:bg-pastel-dark-blue/20'
     },
     {
-        title: 'Aura Notes',
-        tags: ['Next.js', 'Supabase'],
+        title: 'XAI Games',
+        tags: ['Gaming', 'Supabase'],
         color: 'bg-pastel-green/20 dark:bg-pastel-dark-green/20'
     },
     {
-        title: 'Echo Systems',
+        title: 'Nosana',
         tags: ['Web Audio', 'Canvas'],
         color: 'bg-pastel-lavender/20 dark:bg-pastel-dark-lavender/20'
     }

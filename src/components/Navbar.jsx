@@ -51,7 +51,7 @@ const Navbar = () => {
                             <div className="p-2 bg-pastel-green/30 dark:bg-pastel-dark-green/30 rounded-lg group-hover:bg-pastel-green/50 dark:group-hover:bg-pastel-dark-green/50 transition-colors">
                                 <Terminal size={24} className="text-charcoal dark:text-deep-text transition-colors" />
                             </div>
-                            <span className="font-semibold text-lg tracking-wide text-charcoal dark:text-deep-text transition-colors">Portfolio</span>
+                            <span className="font-semibold text-lg tracking-wide text-charcoal dark:text-deep-text transition-colors">mowdylowdy</span>
                         </a>
                     </div>
 

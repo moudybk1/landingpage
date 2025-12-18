@@ -2,13 +2,13 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const technologies = [
-    { name: 'React', category: 'Frontend' },
-    { name: 'TypeScript', category: 'Language' },
-    { name: 'Tailwind CSS', category: 'Styling' },
-    { name: 'Node.js', category: 'Backend' },
-    { name: 'Next.js', category: 'Framework' },
-    { name: 'PostgreSQL', category: 'Database' },
-    { name: 'Framer Motion', category: 'Animation' },
+    { name: 'Discord', category: 'Community' },
+    { name: 'Telegram', category: 'Community' },
+    { name: 'Zendesk', category: 'Ticketing' },
+    { name: 'Intercom', category: 'Ticketing' },
+    { name: 'Mava', category: 'Ticketing' },
+    { name: 'Slack', category: 'Teamwork' },
+    { name: 'Spreadsheets', category: 'Teamwork' },
     { name: 'Figma', category: 'Design' },
 ];
 
