@@ -6,17 +6,23 @@ const projects = [
     {
         title: 'Nansen AI',
         tags: ['Blockchain Analytics', 'D3.js'],
-        color: 'bg-pastel-blue/20 dark:bg-pastel-dark-blue/20'
+        color: 'bg-white',
+        image: 'https://cdn.prod.website-files.com/60118ca1c2eab61d24bcf151/65e52a8bf75f1332364f0a70_Nansen_Logo_Primary_Horizontal_GreenBlack_RGB.png',
+        link: 'https://nansen.ai'
     },
     {
         title: 'XAI Games',
         tags: ['Gaming', 'Supabase'],
-        color: 'bg-pastel-green/20 dark:bg-pastel-dark-green/20'
+        color: 'bg-white',
+        image: 'https://mma.prnewswire.com/media/2424934/XAI_Logo.jpg?p=facebook',
+        link: 'https://xai.games'
     },
     {
         title: 'Nosana',
         tags: ['Web Audio', 'Canvas'],
-        color: 'bg-pastel-lavender/20 dark:bg-pastel-dark-lavender/20'
+        color: 'bg-white',
+        image: 'https://miro.medium.com/v2/resize:fit:1400/1*9GE5pkSRjJad2Zo7MIg9UQ.png',
+        link: 'https://nosana.com'
     }
 ];
 
@@ -42,7 +48,9 @@ const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {projects.map((project, index) => (
                         <motion.a
-                            href="#"
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             key={project.title}
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -53,9 +61,11 @@ const Projects = () => {
                         >
                             {/* Thumbnail Container */}
                             <div className={`aspect-[4/3] rounded-2xl overflow-hidden ${project.color} relative mb-5 shadow-sm group-hover:shadow-lg transition-all duration-300`}>
-                                <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:opacity-60 transition-opacity duration-500">
-                                    <div className="w-1/2 h-1/2 bg-white/40 dark:bg-white/10 rounded-lg transform rotate-6 group-hover:rotate-0 transition-transform duration-500 ease-out" />
-                                </div>
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="absolute inset-0 w-full h-full object-contain p-6 transition-transform duration-500 group-hover:scale-105"
+                                />
 
                                 {/* Hover Overlay */}
                                 <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 dark:group-hover:bg-white/5 transition-colors duration-300" />

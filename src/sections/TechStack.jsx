@@ -9,7 +9,7 @@ const technologies = [
     { name: 'Mava', category: 'Ticketing' },
     { name: 'Slack', category: 'Teamwork' },
     { name: 'Spreadsheets', category: 'Teamwork' },
-    { name: 'Figma', category: 'Design' },
+    { name: 'Notion', category: 'Documentation' },
 ];
 
 const TechStack = () => {

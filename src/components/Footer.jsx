@@ -8,9 +8,9 @@ const Footer = () => {
                     © {new Date().getFullYear()} Designed & Built with curiosity.
                 </div>
                 <div className="mt-4 md:mt-0 flex space-x-6 text-sm">
-                    <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-pastel-blue dark:hover:text-pastel-dark-blue transition-colors">GitHub</a>
-                    <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-pastel-blue dark:hover:text-pastel-dark-blue transition-colors">Twitter</a>
-                    <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-pastel-blue dark:hover:text-pastel-dark-blue transition-colors">LinkedIn</a>
+                    <a href="https://t.me/mowdylowdy" target='blank' className="text-gray-500 dark:text-gray-400 hover:text-pastel-blue dark:hover:text-pastel-dark-blue transition-colors">Telegram</a>
+                    <a href="https://x.com/mowdylowdy" target='blank' className="text-gray-500 dark:text-gray-400 hover:text-pastel-blue dark:hover:text-pastel-dark-blue transition-colors">Twitter</a>
+                    <a href="https://www.linkedin.com/in/yogabayukusuma/" target='blank' className="text-gray-500 dark:text-gray-400 hover:text-pastel-blue dark:hover:text-pastel-dark-blue transition-colors">LinkedIn</a>
                 </div>
             </div>
         </footer>

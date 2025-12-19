@@ -23,7 +23,7 @@ const Contact = () => {
                     </p>
 
                     <motion.a
-                        href="mailto:hello@example.com"
+                        href="mailto:moudy.eth@gmail.com"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         className="inline-flex items-center space-x-3 px-8 py-4 bg-charcoal dark:bg-pastel-dark-blue text-cream dark:text-white rounded-full font-medium text-lg shadow-xl shadow-pastel-blue/20 dark:shadow-black/30 hover:shadow-2xl hover:bg-gray-700 dark:hover:bg-pastel-dark-blue/90 transition-all"

@@ -47,7 +47,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
                     <div className="flex-shrink-0">
-                        <a href="#" className="flex items-center space-x-2 group">
+                        <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="flex items-center space-x-2 group">
                             <div className="p-2 bg-pastel-green/30 dark:bg-pastel-dark-green/30 rounded-lg group-hover:bg-pastel-green/50 dark:group-hover:bg-pastel-dark-green/50 transition-colors">
                                 <Terminal size={24} className="text-charcoal dark:text-deep-text transition-colors" />
                             </div>
